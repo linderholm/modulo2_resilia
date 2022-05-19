@@ -1,0 +1,10 @@
+.imagem-carrossel {
+  object-fit: cover;
+  object-position: 0 80%;
+  height: 400px;
+}
+
+.imagem-posicao-card {
+  object-fit: cover;
+  height: 200px;
+}
