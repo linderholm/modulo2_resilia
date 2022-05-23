@@ -8,3 +8,45 @@
   object-fit: cover;
   height: 200px;
 }
+
+header .nav-link:hover {
+  border-bottom: 1px solid black;
+}
+
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.form-contato > input , textarea {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+textarea {
+  resize: none;
+}
+
+-webkit-text
+
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.cards-dev {
+  background-color: #222;
+}
+
+.card-footer-inner {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-footer img {
+  width: 50px;
+  height: 50px;
+}
