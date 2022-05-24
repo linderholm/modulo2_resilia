@@ -51,13 +51,7 @@ input[type="number"]::-webkit-inner-spin-button {
   height: 50px;
 }
 
-#titulo {
-  font-size: 50px;
-}
 
-#perguntas {
-  font-size: 25px;
-  font-style: italic;
-  width: 90%;
-  margin: auto;
+#quem {
+  width: 50%;
 }
