@@ -1,0 +1,36 @@
+main{
+    width:100%;
+    height:100vh;
+}
+
+.card{
+    height:450px;
+    box-shadow:5px 5px 10px black;
+    transition: opacity 0.25s;
+}
+
+.card-img-top{
+    object-fit:cover;
+    height:450px;
+}
+
+.card-img-top-1{
+    object-fit:cover;
+    object-position:top;
+    height:450px;
+}
+
+.card:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+
+#voyager-text, #galileo-text, #webb-text{
+    opacity:0;
+    transition: opacity 0.25s;
+}
+
+#voyager-text:hover, #galileo-text:hover, #webb-text:hover{
+    opacity:1;
+}
+
