@@ -4,6 +4,11 @@
   height: 400px;
 }
 
+.imagem-carrossel-qs {
+  object-fit: cover;
+    height: 600px;
+}
+
 .imagem-posicao-card {
   object-fit: cover;
   height: 200px;
