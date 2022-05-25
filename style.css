@@ -4,12 +4,17 @@
   height: 400px;
 }
 
+.imagem-carrossel-qs {
+  object-fit: cover;
+    height: 600px;
+}
+
 .imagem-posicao-card {
   object-fit: cover;
   height: 200px;
 }
 
-header .nav-link:hover {
+.nav-link:hover {
   border-bottom: 1px solid black;
 }
 
@@ -18,23 +23,29 @@ header .nav-link:hover {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  width: 80%;
   margin: auto;
 }
 
 .form-contato > input , textarea {
   margin-bottom: 10px;
-  width: 50%;
+  width: 18rem;
+}
+
+.form-contato > input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.form-contato > #telContato {
+  width: 10rem;
 }
 
 textarea {
   resize: none;
+  margin-bottom: 40px;
 }
 
--webkit-text
-
-input[type="number"]::-webkit-inner-spin-button {
-  display: none;
+button {
+  margin-bottom: 40px;
 }
 
 .cards-dev {
@@ -51,13 +62,7 @@ input[type="number"]::-webkit-inner-spin-button {
   height: 50px;
 }
 
-#titulo {
-  font-size: 50px;
-}
 
-#perguntas {
-  font-size: 25px;
-  font-style: italic;
-  width: 90%;
-  margin: auto;
+#quem {
+  width: 50%;
 }

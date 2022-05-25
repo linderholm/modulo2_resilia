@@ -1,35 +1,3 @@
-$('#cadastro-cep').on('blur', function() {
-  let cep = $("#cadastro-cep").val()
-  
-  $.ajax({
-    url: `https://viacep.com.br/ws/${cep}/json/`,
-    type: "GET",
-    dataType: 'json',
-
-    success: function(result) {
-      console.log(result);
-
-      if (result.erro == "true") {
-        $('#cadastro-cep').removeClass("form-control").addClass("form-control is-invalid");
-      } else {
-        $('#cadastro-cidade').val(result.localidade);
-        $('#cadastro-estado').val(result.uf);
-        $('#cadastro-bairro').val(result.bairro);
-        $('#cadastro-rua').val(result.logradouro);
-        
-      }
-          
-    },
-
-    error: function() {
-      $('#cadastro-cep').removeClass("form-control").addClass("form-control is-invalid");
-    }
-
-  })
-  
-})
-
-
 class Endereco {
   constructor (cep, rua, cidade, estado, bairro, complemento, numero) {
     try {
@@ -63,3 +31,4 @@ class Cliente {
   }
 }
 }
+
