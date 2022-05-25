@@ -14,7 +14,7 @@
   height: 200px;
 }
 
-header .nav-link:hover {
+.nav-link:hover {
   border-bottom: 1px solid black;
 }
 
@@ -23,23 +23,29 @@ header .nav-link:hover {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  width: 80%;
   margin: auto;
 }
 
 .form-contato > input , textarea {
   margin-bottom: 10px;
-  width: 50%;
+  width: 18rem;
+}
+
+.form-contato > input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+.form-contato > #telContato {
+  width: 10rem;
 }
 
 textarea {
   resize: none;
+  margin-bottom: 40px;
 }
 
--webkit-text
-
-input[type="number"]::-webkit-inner-spin-button {
-  display: none;
+button {
+  margin-bottom: 40px;
 }
 
 .cards-dev {
