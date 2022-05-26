@@ -8,7 +8,7 @@
 <h2>Sobre o projeto</h2>
 
 <p>Produto ficticio, apresentado como uma agencia de viagens espaciais, com opções de pacotes, de cadastro para reserva de vagas, login, contato e mais.</p>
-<p>Ideia totalmente original, nascida da criatividade dos membros da equipe de desenvolvimento</p>
+<p>Ideia totalmente original, nascida da criatividade dos membros da equipe de desenvolvimento.</p>
 
 <br>
 <br>
@@ -35,7 +35,7 @@
 
 <p>Para contribuir e melhorar o código, é necessario fazer um fork do projeto (repositório https://github.com/NodjaLima/modulo2_resilia), para isso utilize a ferramenta GIT Bash e o seu editor de codigos favorito. A nossa equipe é usuária de VSCode.</p>
 
-<p>Após feitas as melhorias que deseja, nos envie através de contrinuição. Teremos prazer em analisar sua contruição e incluir em nosso projeto.
+<p>Após feitas as melhorias que deseja, nos envie através de colaboração GitHub. Teremos prazer em analisar sua contruição e, quem sabe, incluir em nosso projeto. Sinta-se livre, amamos criatividade.
 
 <br>
 <br>
@@ -49,10 +49,10 @@
 
 <h3>Nossa Equipe</h3>
 
-<p>Helder Lucas</p>
-<p>Luciano Freitas</p>
-<p>Nodja Lima</p>
-<p>Pedro Toni</p>
-<p>Ramom Ferraz</p>
+<p>Helder Lucas https://github.com/linderholm</p>
+<p>Luciano Freitas https://github.com/LucianoFreitas16</p>
+<p>Nodja Lima https://github.com/NodjaLima</p>
+<p>Pedro Toni https://github.com/pedrotoni</p>
+<p>Ramom Ferraz https://github.com/ramomfrz</p>
 
 
