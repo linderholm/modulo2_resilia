@@ -62,7 +62,21 @@ button {
   height: 50px;
 }
 
-
 #quem {
   width: 50%;
+}
+
+#titulo {
+  margin-top: 20px;
+}
+
+#seletorContato {
+  width: 20rem;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  #titulo {
+    margin-top: 50px;
+  }
 }
