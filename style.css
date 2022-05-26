@@ -62,7 +62,12 @@ button {
   height: 50px;
 }
 
-
-#quem {
-  width: 50%;
+.imagens-qs{
+  height: 300px;
+  
+}
+@media (max-width: 800px){
+  #paragrafoQuemSomos{
+    margin-top: 100px;
+  }
 }
