@@ -62,12 +62,28 @@ button {
   height: 50px;
 }
 
-.imagens-qs{
-  height: 300px;
-  
+#quem {
+  width: 50%;
 }
-@media (max-width: 800px){
-  #paragrafoQuemSomos{
-    margin-top: 100px;
+
+#titulo {
+  margin-top: 20px;
+}
+
+.imagens-qs{
+  height: 300px; 
+}
+
+#seletorContato {
+  width: 20rem;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  #titulo {
+    margin-top: 50px;
   }
+   #paragrafoQuemSomos{
+    margin-top: 100px;
+}
 }
