@@ -82,11 +82,13 @@ button {
 #seletorContato {
   width: 20rem;
   text-align: center;
+  border: 1px solid #ccc;
+  margin: 5vh 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   #titulo {
-    margin-top: 50px;
+    margin-top: 5vh;
   }
   #paragrafoQuemSomos {
     margin-top: 100px;
