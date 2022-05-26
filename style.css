@@ -1,3 +1,7 @@
+.carrosel_img {
+  margin-top: 55px;
+}
+
 .imagem-carrossel {
   object-fit: cover;
   object-position: 0 80%;
@@ -6,7 +10,7 @@
 
 .imagem-carrossel-qs {
   object-fit: cover;
-    height: 600px;
+  height: 600px;
 }
 
 .imagem-posicao-card {
@@ -26,7 +30,8 @@
   margin: auto;
 }
 
-.form-contato > input , textarea {
+.form-contato > input,
+textarea {
   margin-bottom: 10px;
   width: 18rem;
 }
@@ -70,20 +75,22 @@ button {
   margin-top: 20px;
 }
 
-.imagens-qs{
-  height: 300px; 
+.imagens-qs {
+  height: 300px;
 }
 
 #seletorContato {
   width: 20rem;
   text-align: center;
+  border: 1px solid #ccc;
+  margin: 5vh 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   #titulo {
-    margin-top: 50px;
+    margin-top: 5vh;
   }
-   #paragrafoQuemSomos{
+  #paragrafoQuemSomos {
     margin-top: 100px;
-}
+  }
 }
