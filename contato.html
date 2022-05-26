@@ -38,26 +38,42 @@
         fazer para solucionar seu problema.<br>Deixe-nos uma mensagem, reclamação ou sugestão.</p>
     </section>
 
-    <form class="form-contato">
-      <label for="nomeContato">Nome Completo:<br></label>
-      <input type="text" id="nomeContato">
-      <label for="emailContato">E-mail:<br></label>
-      <input type="email">
-      <label for="telContato">Telefone:<br></label>
-      <input type="number" id="telContato">
-      <select id="tipoMensagem">
-        <option value="">Dúvidas</option>
-        <option value="">Sugestões</option>
-        <option value="">Reclamações</option>
-      </select>
-      <div>
-        <input type="checkbox" id="checkZap">
-        <label for="checkZap">Deseja contato por WhatsApp?</label>
-      </div>
-      <label for="msgContato">Deixe-nos uma mensagem<br></label>
-      <textarea rows="5" characters="200" type="text"></textarea>
-      <label for="txtarea"><button id='txtarea'>Enviar</button></label>
-    </form>
+    <main class="justify-content-end align-items-center overflow-hidden">
+
+      <section class="d-flex justify-content-center align-items-center">
+      <form style="width: 450px;" class="d-flex flex-column align-items-center p-3">
+          <div class="mb-3 w-100">
+
+              <div class="mb-3">
+                <label for="passwordBox">Nome Completo</label>
+                <input type="text" class="form-control w-100" id="passwordBox" placeholder="Digite seu nome"
+                    required>
+                <div id="validationServer05Feedback" class="invalid-feedback">
+                    Por favor, informe um nome válido.
+                </div>
+
+              </div>
+              <div>
+                  <label for="emailBox">E-mail</label>
+                  <input type="email" class="form-control w-100" id="emailBox"
+                      placeholder="Digite seu e-mail" required>
+                  <div id="validationServer05Feedback" class="invalid-feedback">
+                      Por favor, informe um nome e-mal
+                  </div>
+              </div>
+          </div>
+          <div class="mb-3 form-check d-flex flex-column">
+              <div class="d-flex align-items-center mb-3">
+                  <input type="checkbox" id="checkBox" class="form-check-input " class="Check-box" required>
+                  <label class="form-check-label" for="Check-box">Concordo com as <a href="#">
+                          Condições de Uso da FrontEnders.</a>
+                  </label>
+              </div>
+          </div>
+          <button type="submit" id="join" class="btn btn-primary mt-4 mb-4" data-toggle="modal"
+              data-target="#modal" disabled>Entrar</button>
+      </form>
+    </section>
 
     <div class="cards-dev">
       <section id="titulo">
@@ -97,7 +113,7 @@
           </article>
 
           <article class="card m-4" style="width: 16rem;">
-            <img src="./img/manelzin1.jpg" class="card-img-top imagem-posicao-card" id="ramom">
+            <img src="./img/manelzin2.png" class="card-img-top imagem-posicao-card" id="ramom">
             <div class="card-body">
               <h3 class="card-title">Ramom Ferraz</h3>
               <h6 class="card-text">Manelzin</h6>
@@ -160,6 +176,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
     integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
   </script>
+  <script src="./src/front/controller/controller_login.js"></script>
 </body>
 
 </html>
