@@ -61,6 +61,12 @@ button {
   background-color: #222;
 }
 
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card-footer-inner {
   display: flex;
   justify-content: space-evenly;
