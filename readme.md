@@ -1,4 +1,4 @@
-<img src="img/carousel.img1.jpg">
+<img src="img/carousel_img1.jpg">
 
 <h1>SpaceTrip, um produto FrontEnders</h1>
 <h4>Projeto pre-requisto para obtenção do certificado do segundo modulo do curso de WebDev FullStack da Resilia Educação
