@@ -70,6 +70,10 @@ button {
   margin-top: 20px;
 }
 
+.imagens-qs{
+  height: 300px; 
+}
+
 #seletorContato {
   width: 20rem;
   text-align: center;
@@ -79,4 +83,7 @@ button {
   #titulo {
     margin-top: 50px;
   }
+   #paragrafoQuemSomos{
+    margin-top: 100px;
+}
 }
