@@ -1,9 +1,10 @@
-<img src="./img/carousel.img1.jpg">
+<img src="img/carousel.img1.jpg">
 
 <h1>SpaceTrip, um produto FrontEnders</h1>
 <h4>Projeto pre-requisto para obtenção do certificado do segundo modulo do curso de WebDev FullStack da Resilia Educação
-
 <br>
+<br>
+
 <h2>Sobre o projeto</h2>
 
 <p>Produto ficticio, apresentado como uma agencia de viagens espaciais, com opções de pacotes, de cadastro para reserva de vagas, login, contato e mais.</p>
