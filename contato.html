@@ -41,142 +41,156 @@
     <main class="justify-content-end align-items-center overflow-hidden">
 
       <section class="d-flex justify-content-center align-items-center">
-      <form style="width: 450px;" class="d-flex flex-column align-items-center p-3">
+        <form style="width: 450px;" class="d-flex flex-column align-items-center p-3">
           <div class="mb-3 w-100">
 
-              <div class="mb-3">
-                <label for="passwordBox">Nome Completo</label>
-                <input type="text" class="form-control w-100" id="passwordBox" placeholder="Digite seu nome"
-                    required>
-                <div id="validationServer05Feedback" class="invalid-feedback">
-                    Por favor, informe um nome válido.
-                </div>
+            <div class="mb-3">
+              <label for="passwordBox">Nome Completo</label>
+              <input type="text" class="form-control w-100" id="passwordBox" placeholder="Digite seu nome" required>
+              <div id="validationServer05Feedback" class="invalid-feedback">
+                Por favor, informe um nome válido.
+              </div>
 
+            </div>
+            <div>
+              <label for="emailBox">E-mail</label>
+              <input type="email" class="form-control w-100" id="emailBox" placeholder="Digite seu e-mail" required>
+              <div id="validationServer05Feedback" class="invalid-feedback">
+                Por favor, informe um nome e-mal
               </div>
-              <div>
-                  <label for="emailBox">E-mail</label>
-                  <input type="email" class="form-control w-100" id="emailBox"
-                      placeholder="Digite seu e-mail" required>
-                  <div id="validationServer05Feedback" class="invalid-feedback">
-                      Por favor, informe um nome e-mal
-                  </div>
-              </div>
+            </div>
+          </div>
+          <div>
+            <selector>
+              <option value="">Sugestões</option>
+              <option value="">Reclamações</option>
+              <option value="">Dúvidas</option>
+              <option value="">Elogios</option>
+            </selector>
+          </div>
+
+          <div>
+            <label for="emailBox">Digite sua mensagem</label>
+            <textarea style="width: 20rem" class="form-control" rows="5" id="emailBox" placeholder="" required></textarea>
+            <div id="validationServer05Feedback" class="invalid-feedback">
+              Por favor, informe um nome e-mal
+            </div>
           </div>
           <div class="mb-3 form-check d-flex flex-column">
-              <div class="d-flex align-items-center mb-3">
-                  <input type="checkbox" id="checkBox" class="form-check-input " class="Check-box" required>
-                  <label class="form-check-label" for="Check-box">Concordo com as <a href="#">
-                          Condições de Uso da FrontEnders.</a>
-                  </label>
-              </div>
+            <div class="d-flex align-items-center mb-3">
+              <input type="checkbox" id="checkBox" class="form-check-input " class="Check-box" required>
+              <label class="form-check-label" for="Check-box">Concordo com as <a href="#">
+                  Condições de Uso da FrontEnders.</a>
+              </label>
+            </div>
           </div>
-          <button type="submit" id="join" class="btn btn-primary mt-4 mb-4" data-toggle="modal"
-              data-target="#modal" disabled>Entrar</button>
-      </form>
-    </section>
-
-    <div class="cards-dev">
-      <section id="titulo">
-        <h1 class="text-center pt-5 text-white">Nossa equipe</h1>
-        <p class="text-center text-white pb-5">Responsáveis por tornar esse website possível com muita dedicação!</p>
+          <button type="submit" id="join" class="btn btn-primary mt-4 mb-4" data-toggle="modal" data-target="#modal"
+            disabled>Enviar</button>
+        </form>
       </section>
 
-      <section class="container-fluid" id="cards">
-        <div class="row justify-content-center">
+      <div class="cards-dev">
+        <section id="titulo">
+          <h1 class="text-center pt-5 text-white">Nossa equipe</h1>
+          <p class="text-center text-white pb-5">Responsáveis por tornar esse website possível com muita dedicação!</p>
+        </section>
 
-          <article class="card m-4" style="width: 16rem;">
-            <img src="./img/perfil-nodja1.jpg" class="card-img-top imagem-posicao-card" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Nodja Lima</h3>
-              <h6 class="card-text">Mommy.Dev</h6>
-              <p class="card-text">Conheça nossos planos de viagem e escolha o seu.</p>
-              <div class="card-footer">
-                <div class="card-footer-inner">
-                  <a href="https://github.com/NodjaLima"><img src="./img/github1.png"></a>
-                  <a href="https://www.linkedin.com/in/nodjamoamal/"><img src="./img/linkedin-logo.png"></a>
+        <section class="container-fluid" id="cards">
+          <div class="row justify-content-center">
+
+            <article class="card m-4" style="width: 16rem;">
+              <img src="./img/perfil-nodja1.jpg" class="card-img-top imagem-posicao-card" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Nodja Lima</h3>
+                <h6 class="card-text">Mommy.Dev</h6>
+                <p class="card-text">Conheça nossos planos de viagem e escolha o seu.</p>
+                <div class="card-footer">
+                  <div class="card-footer-inner">
+                    <a href="https://github.com/NodjaLima"><img src="./img/github1.png"></a>
+                    <a href="https://www.linkedin.com/in/nodjamoamal/"><img src="./img/linkedin-logo.png"></a>
+                  </div>
+                </div>
+            </article>
+
+            <article class="card m-4" style="width: 16rem;">
+              <img src="./img/helder.jpg" class="card-img-top imagem-posicao-card" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Helder Lucas</h3>
+                <h6 class="card-text">linderholm</h6>
+                <p class="card-text">Inscreva-se na lista de espera das próximas viagens</p>
+                <div class="card-footer">
+                  <div class="card-footer-inner">
+                    <a href="https://github.com/linderholm"><img src="./img/github1.png"></a>
+                    <a href="https://www.linkedin.com/in/helder-lucas/"><img src="./img/linkedin-logo.png"></a>
+                  </div>
+                </div>
+            </article>
+
+            <article class="card m-4" style="width: 16rem;">
+              <img src="./img/manelzin2.png" class="card-img-top imagem-posicao-card" id="ramom">
+              <div class="card-body">
+                <h3 class="card-title">Ramom Ferraz</h3>
+                <h6 class="card-text">Manelzin</h6>
+                <p class="card-text">Uma páginas de informações incriveis para você</p>
+                <div class="card-footer">
+                  <div class="card-footer-inner">
+                    <a href="https://github.com/ramomfrz"><img src="./img/github1.png"></a>
+                    <a href="https://www.linkedin.com/in/ramomferraz/"><img src="./img/linkedin-logo.png"></a>
+                  </div>
                 </div>
               </div>
-          </article>
+            </article>
 
-          <article class="card m-4" style="width: 16rem;">
-            <img src="./img/helder.jpg" class="card-img-top imagem-posicao-card" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Helder Lucas</h3>
-              <h6 class="card-text">linderholm</h6>
-              <p class="card-text">Inscreva-se na lista de espera das próximas viagens</p>
-              <div class="card-footer">
-                <div class="card-footer-inner">
-                  <a href="https://github.com/linderholm"><img src="./img/github1.png"></a>
-                  <a href="https://www.linkedin.com/in/helder-lucas/"><img src="./img/linkedin-logo.png"></a>
+            <article class="card m-4" style="width: 16rem;">
+              <img src="./img/luciano.jpg" class="card-img-top imagem-posicao-card" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Luciano Freitas</h3>
+                <h6 class="card-text">Luciano Freitas</h6>
+                <p class="card-text">Uma páginas de informações incriveis para você</p>
+                <div class="card-footer">
+                  <div class="card-footer-inner">
+                    <a href=""><img src="./img/github1.png"></a>
+                    <a href=""><img src="./img/linkedin-logo.png"></a>
+                  </div>
                 </div>
               </div>
-          </article>
+            </article>
 
-          <article class="card m-4" style="width: 16rem;">
-            <img src="./img/manelzin2.png" class="card-img-top imagem-posicao-card" id="ramom">
-            <div class="card-body">
-              <h3 class="card-title">Ramom Ferraz</h3>
-              <h6 class="card-text">Manelzin</h6>
-              <p class="card-text">Uma páginas de informações incriveis para você</p>
-              <div class="card-footer">
-                <div class="card-footer-inner">
-                  <a href="https://github.com/ramomfrz"><img src="./img/github1.png"></a>
-                  <a href="https://www.linkedin.com/in/ramomferraz/"><img src="./img/linkedin-logo.png"></a>
+            <article class="card m-4" style="width: 16rem;">
+              <img src="./img/pedro-boa.jpg" class="card-img-top imagem-posicao-card" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">Pedro Toni</h3>
+                <h6 class="card-text">Pedro Malabares</h6>
+                <p class="card-text">Uma páginas de informações incriveis para você</p>
+                <div class="card-footer">
+                  <div class="card-footer-inner">
+                    <a href="https://github.com/pedrotoni"><img src="./img/github1.png"></a>
+                    <a href="https://www.linkedin.com/in/pedro-toni/"><img src="./img/linkedin-logo.png"></a>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </article>
+            </article>
 
-          <article class="card m-4" style="width: 16rem;">
-            <img src="./img/luciano.jpg" class="card-img-top imagem-posicao-card" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Luciano Freitas</h3>
-              <h6 class="card-text">Luciano Freitas</h6>
-              <p class="card-text">Uma páginas de informações incriveis para você</p>
-              <div class="card-footer">
-                <div class="card-footer-inner">
-                  <a href=""><img src="./img/github1.png"></a>
-                  <a href=""><img src="./img/linkedin-logo.png"></a>
-                </div>
-              </div>
-            </div>
-          </article>
+          </div>
+        </section>
+      </div>
+    </main>
 
-          <article class="card m-4" style="width: 16rem;">
-            <img src="./img/pedro-boa.jpg" class="card-img-top imagem-posicao-card" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Pedro Toni</h3>
-              <h6 class="card-text">Pedro Malabares</h6>
-              <p class="card-text">Uma páginas de informações incriveis para você</p>
-              <div class="card-footer">
-                <div class="card-footer-inner">
-                  <a href="https://github.com/pedrotoni"><img src="./img/github1.png"></a>
-                  <a href="https://www.linkedin.com/in/pedro-toni/"><img src="./img/linkedin-logo.png"></a>
-                </div>
-              </div>
-          </article>
-
-        </div>
-      </section>
-    </div>
-  </main>
-
-  <footer class="bg-secondary p-3">
-    <p class="text-light m-0 text-center">&copy; FrontEnders </p>
-  </footer>
+    <footer class="bg-secondary p-3">
+      <p class="text-light m-0 text-center">&copy; FrontEnders </p>
+    </footer>
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
-    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
-  </script>
-  <script src="./src/front/controller/controller_login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+    <script src="./src/front/controller/controller_login.js"></script>
 </body>
 
 </html>
